@@ -1,0 +1,71 @@
+
+// Program: Enigmera
+// Developer's Site: forexroboteasy.com
+// Development: Forex Robot Easy Team
+
+// Trend analysis function
+void trendAnalysis()
+{
+    // Analyze market trends using historical data
+    // Code for analyzing historical data goes here
+
+    // Identify and follow upward or downward trends
+    // Code for identifying trends goes here
+
+    // Determine optimal entry and exit points based on trend analysis
+    // Code for determining entry and exit points goes here
+}
+
+// Counter-trend trading function
+void counterTrendTrading()
+{
+    // Identify market reversals or counter-trend movements
+    // Code for identifying reversals goes here
+
+    // Open positions in the opposite direction of the prevailing trend
+    // Code for opening positions goes here
+
+    // Determine optimal entry and exit points for counter-trend trades
+    // Code for determining entry and exit points goes here
+}
+
+// Scalping function
+void scalping()
+{
+    // Execute multiple quick trades to take advantage of short-term market volatility
+    // Code for executing trades goes here
+
+    // Identify and exploit small price movements for profit
+    // Code for identifying and exploiting price movements goes here
+
+    // Set specific profit targets and stop-loss levels for each scalping trade
+    // Code for setting profit targets and stop-loss levels goes here
+}
+
+// Main function
+int OnInit()
+{
+    // Initialize Enigmera
+    // Code for initialization goes here
+
+    return(INIT_SUCCEEDED);
+}
+
+void OnTick()
+{
+    // Call trend analysis function
+    trendAnalysis();
+
+    // Call counter-trend trading function
+    counterTrendTrading();
+
+    // Call scalping function
+    scalping();
+}
+
+void OnDeinit(const int reason)
+{
+    // Perform necessary clean-up tasks
+    // Code for clean-up tasks goes here
+}
+```
